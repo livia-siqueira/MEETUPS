@@ -1,7 +1,6 @@
-# Events Calendar
+# React Meetups
 
-This project was developed using the basic concepts of nextjs and to support the fourth module of the next course of the LabLuby program from LubySoftware. It is a simple event marker, inside it is filtered by date, in addition to having navigation between upcoming events and all those that have already happened.
-
+This project was developed in react, to support the second module of the next course of the LabLuby program by LubySoftware, and it is a bank of places around the world, in which customers can add whichever they prefer and can select as favorite the one they like.
 ## 🚀 Sobre mim
 
 I'm a front-end developer, currently doing an internship at Luby Software.
