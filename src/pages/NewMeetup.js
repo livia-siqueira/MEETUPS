@@ -7,7 +7,7 @@ export const NewMeetup = () => {
    const history = useHistory();
     
     const addMeetupHandler = (newMeetup) => {
-        fetch('https://course-next-default-rtdb.firebaseio.com/meetups.json',
+        fetch('https://allmetups-default-rtdb.firebaseio.com/meetups.json',
         {
             method: 'POST',
             body: JSON.stringify(newMeetup),

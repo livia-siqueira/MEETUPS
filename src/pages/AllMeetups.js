@@ -9,7 +9,7 @@ export const AllMeetup = () => {
 
     useEffect(() => {
         setLoading(true);
-        fetch("https://course-next-default-rtdb.firebaseio.com/meetups.json")
+        fetch("https://allmetups-default-rtdb.firebaseio.com/meetups.json")
             .then((res) => {
                 return res.json();
             }).then(data => {
@@ -50,7 +50,6 @@ export const AllMeetup = () => {
             </section>
         )
     }
-    console.log(meetups)
     return (
         <div>
             <h1>All Meetups</h1>
